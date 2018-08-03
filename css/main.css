@@ -11,9 +11,6 @@ body {
 .title h1 {
   text-align: center;
   font-family: MedievalSharp;
-  padding-top: 5%;
-  margin-left: 30px;
-  margin-right: 30px;
   background: linear-gradient(#161032, #FF928B)
 }
 
@@ -22,19 +19,15 @@ h3 {
 }
 
 .block {
-  padding: 200px;
   text-align: center;
   font-family: Dosis;
   font-weight: lighter;
   font-size: 30px;
-  margin-left: 30px;
-  margin-right: 30px;
+  
   transition: padding 700ms;
 }
 
-.block:hover {
-  padding: 220px;
-}
+
 
 .block1 {
   background: linear-gradient(#FF928B, #FFAC81);
@@ -70,4 +63,33 @@ h3 {
 
 .footer a:hover {
   font-size: 20px;
+}
+
+@media (min-width: 465px){
+  .title h1 {
+    padding-top: 5%;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .block {
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 200px;
+  }
+
+  .block:hover {
+    padding: 220px;
+  }
+}
+
+@media (max-width: 320px) {
+  .title h1 {
+    padding-top: 5%;
+    padding: 25px;
+  }
+
+  .block:hover {
+    padding: 45px;
+  }
 }
