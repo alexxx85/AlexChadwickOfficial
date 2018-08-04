@@ -50,9 +50,6 @@ h3 {
 }
 .footer {
   text-align: center;
-  padding: 100px;
-  margin-left: 30px;
-  margin-right: 30px;
   background: linear-gradient(#4D9DE0, #EF476F);
 }
 .footer a {
@@ -65,7 +62,7 @@ h3 {
   font-size: 20px;
 }
 
-@media (min-width: 465px){
+@media (min-width: 1200px){
   .title h1 {
     padding-top: 5%;
     margin-left: 30px;
@@ -81,15 +78,22 @@ h3 {
   .block:hover {
     padding: 220px;
   }
+  .footer {
+    padding: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) {
   .title h1 {
     padding-top: 5%;
-    padding: 25px;
+    padding: 55px;
   }
-
-  .block:hover {
-    padding: 45px;
+  .block {
+    padding: 55px;
+  }  
+  .footer {
+    padding: 35px;
   }
 }
