@@ -22,9 +22,9 @@ h3 {
 .block {
   text-align: center;
   font-family: DosisBold;
-  font-size: 30px;
+  font-size: 5px;
   
-  transition: padding 700ms;
+  transition: font-size 700ms;
 }
 
 
@@ -74,11 +74,11 @@ h3 {
   .block {
     margin-left: 30px;
     margin-right: 30px;
-    padding: 200px;
+    padding: 55px;
   }
 
   .block:hover {
-    padding: 220px;
+    font-size: 30px;
   }
   .footer {
     padding: 100px;
@@ -87,13 +87,14 @@ h3 {
   }
 }
 
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 1119px) {
   .title h1 {
     padding-top: 5%;
     padding: 55px;
   }
   .block {
     padding: 55px;
+    font-size: 30px;
   }  
   .footer {
     padding: 35px;
