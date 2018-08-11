@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	display: grid;
+	width: 100%;
+	height: 100vh;
+	grid-template-rows: 1fr 3fr 3fr 3fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-areas: 
+	"name name name"
+	". image ."
+	"about about about"
+	"contact contact contact"
+	"footer footer footer"
+	;
+	background: #B9B9B9;
+}
+
+#name {
+	grid-area: name;
+	text-align: center;
+	background: #B9B9B9;
+}
+
+#image {
+	grid-area: image;
+	margin-left: auto;
+	margin-right: auto;
+	background: #B9B9B9;
+}
+
+#image img {
+	grid-area: nestedImage;
+	border-radius: 50%;
+}
+
+#about {
+	grid-area: about;
+	text-align: center;
+	background: #AFAFAF;
+	width: 100vw;
+	padding: 40px;
+}
+
+#about p {
+	font-size: 30px;
+}

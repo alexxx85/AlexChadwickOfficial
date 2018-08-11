@@ -1,35 +1,13 @@
 @font-face {
-    font-family: Dosis;
-    src: url(../fonts/Dosis/Dosis-Regular.ttf) format("truetype");
-    font-weight: normal;
+	font-family: Oswald;
+	src: url(../fonts/Oswald/Oswald-Regular.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: DosisBold;
-    src: url(../fonts/Dosis/Dosis-Bold.ttf) format("truetype");
-    font-weight: bold;
+	font-family: Titillium;
+	src: url(../fonts/Titillium_Web/TitilliumWeb-Regular.ttf) format('truetype');
 }
-
 @font-face {
-    font-family: DosisEBold;
-    src: url(../fonts/Dosis/Dosis-ExtraBold.ttf) format("truetype");
-    font-weight: bolder;
-}
-
-@font-face {
-    font-family: DosisLight;
-    src: url(../fonts/Dosis/Dosis-Light.ttf) format("truetype");
-    font-weight: 300;
-}
-
-@font-face {
-    font-family: DosisLighter;
-    src: url(../fonts/Dosis/Dosis-ExtraLight.ttf) format("truetype");
-    font-weight: lighter;
-}
-
-@font-face {
-    font-family: MedievalSharp;
-    src: url(../fonts/MedievalSharp/MedievalSharp.ttf);
-    font-weight: normal;
+	font-family: TitilliumItalic;
+	src: url(../fonts/Titillium_Web/TitilliumWeb-BoldItalic.ttf) format('truetype');
 }
